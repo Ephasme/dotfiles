@@ -1,0 +1,2 @@
+0000000000000000000000000000000000000000 39b600e9e564db3dec265fcf2e3db4b5568dd93a Loup Peluso <loup@foxintelligence.io> 1653466302 +0200	fetch --depth=1 origin: storing head
+39b600e9e564db3dec265fcf2e3db4b5568dd93a d41ca84af1271e8bfbe26f581cebe3b86521d0db Loup Peluso <loup@foxintelligence.io> 1654588941 +0200	pull --quiet --rebase origin master: fast-forward

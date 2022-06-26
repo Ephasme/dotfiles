@@ -1,0 +1,17 @@
+# If you come from bash you might have to change your $PATH.
+export PATH=$HOME/bin:/usr/local/bin:$PATH
+export ZSH="$HOME/.oh-my-zsh"
+zstyle ':omz:update' mode auto      # update automatically without asking
+plugins=(git)
+source $ZSH/oh-my-zsh.sh
+source ~/.dotfiles/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+source ~/.dotfiles/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.dotfiles/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+eval "$(starship init zsh)"
+eval "$(zoxide init zsh)"
+eval "$(fnm env --use-on-cd)"
+
+# pnpm
+export PNPM_HOME="/home/loup/.local/share/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+# pnpm end

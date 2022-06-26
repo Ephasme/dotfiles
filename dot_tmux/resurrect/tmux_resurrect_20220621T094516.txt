@@ -1,0 +1,7 @@
+pane	0	1	1	:##*	1	pop-os	:/home/loup/dev/fox/root	1	zsh	:
+pane	0	1	1	:##*	2	pop-os	:/home/loup/dev/fox/root	0	zsh	:
+pane	1	1	1	:*	1	pop-os	:/home/loup/dev/fox/root	1	zsh	:
+pane	1	1	1	:*	2	pop-os	:/home/loup/dev/fox/root	0	zsh	:
+window	0	1	:zsh	1	:##*	6659,182x45,0,0{91x45,0,0,1,90x45,92,0,2}	:
+window	1	1	:zsh	1	:*	4338,181x45,0,0[181x14,0,0,3,181x30,0,15,4]	:
+state	1	0

@@ -1,0 +1,7 @@
+pane	0	1	1	:##*	1	pop-os	:/home/loup/dev/fox/root	1	zsh	:
+pane	0	1	1	:##*	2	pop-os	:/home/loup/dev/fox/root	0	zsh	:
+pane	1	1	1	:*	1	pop-os	:/home/loup/dev/fox/root	1	node	:/run/user/1000/fnm_multishells/11363_1655327515894/bin/node /run/user/1000/fnm_multishells/11363_1655327515894/bin/../../../../../../home/loup/.fnm/node-versions/v18.2.0/installation/pnpm-global/5/node_modules/pnpm/bin/pnpm.cjs turbo run build
+pane	1	1	1	:*	2	pop-os	:/home/loup/dev/fox/root	0	node	:/run/user/1000/fnm_multishells/11389_1655327515899/bin/node /run/user/1000/fnm_multishells/11389_1655327515899/bin/../../../../../../home/loup/.fnm/node-versions/v18.2.0/installation/pnpm-global/5/node_modules/pnpm/bin/pnpm.cjs dev
+window	0	1	:zsh	1	:##*	79c4,152x40,0,0{76x40,0,0,1,75x40,77,0,2}	:
+window	1	1	:node	1	:*	cf58,182x45,0,0[182x26,0,0,3,182x18,0,27,4]	:
+state	1	0
