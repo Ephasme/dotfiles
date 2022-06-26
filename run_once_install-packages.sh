@@ -1,21 +1,5 @@
-{{ if eq .chezmoi.os "linux" -}}
 #!/bin/sh
-sudo apt-get install -y \
-    python \
-    starship \
-    zoxide \
-    git \
-    vim \
-    tmux \
-    zsh
-{{ else if eq .chezmoi.os "darwin" -}}
-#!/bin/sh
-brew install \
-    python \
-    starship \
-    zoxide \
-    git \
-    vim \
-    tmux \
-    zsh
-{{ end -}}
+sudo apt-get install -y tmux
+sudo apt-get install -y python
+sudo apt-get install -y starship
+sudo apt-get install -y zoxide
