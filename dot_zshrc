@@ -9,9 +9,12 @@ source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighti
 source ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
-eval "$(fnm env --use-on-cd)"
 
 # pnpm
 export PNPM_HOME="/home/loup/.local/share/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 # pnpm end
+
+#FNM
+export PATH=/home/loup/.fnm:$PATH
+eval "$(fnm env --use-on-cd)"

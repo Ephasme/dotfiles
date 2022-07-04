@@ -1,5 +1,6 @@
 #!/usr/bin/sh
-sudo apt-get install -y tmux
-sudo apt-get install -y python
-sudo apt-get install -y starship
-sudo apt-get install -y zoxide
+
+sudo apt-get install -y snapd tmux python3 zoxide
+sudo snap install code --classic
+sudo snap install starship
+curl -fsSL https://fnm.vercel.app/install | bash -s -- --skip-shell
