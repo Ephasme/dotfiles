@@ -1,7 +1,7 @@
 #!/usr/bin/sh
 
 sudo apt-get install -y snapd tmux python3 zoxide zsh
-sudo apt-get install kubectl
+sudo apt-get install kubectl gh
 sudo chsh loup --shell /bin/zsh
 sudo snap install code --classic
 sudo snap install starship
