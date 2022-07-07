@@ -15,5 +15,3 @@ sudo apt-get install copyq -y
 curl -fsSL https://fnm.vercel.app/install | bash -s -- --skip-shell
 
 fc-cache -fv
-
-corepack enable

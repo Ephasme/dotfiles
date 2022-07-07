@@ -32,7 +32,7 @@ stripComponents = 1
 refreshPeriod = "168h"
 
 [".local/share/fonts/NerdFonts"]
-url = "https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/DroidSansMono.zip"
+url = "https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/FantasqueSansMono.zip"
 type = "archive"
 exact = true
 refreshPeriod = "168h"
