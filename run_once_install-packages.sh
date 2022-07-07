@@ -16,4 +16,4 @@ curl -fsSL https://fnm.vercel.app/install | bash -s -- --skip-shell
 
 fc-cache -fv
 
-npm install -g pnpm
+corepack enable
